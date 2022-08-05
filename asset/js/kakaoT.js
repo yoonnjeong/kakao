@@ -251,7 +251,7 @@ $(function(){
     var swiper = new Swiper(".proxyDetail", {
         spaceBetween: 30,
         effect: "fade",
-        simulateTouch:false, // 터치불가, 그랩 슬라이드 끄기 위해 사용
+        simulateTouch:false, 
         speed: 400,
         pagination: {
             el: ".swiper-pagination",
@@ -267,10 +267,10 @@ $(function(){
                 
                 gsap.to($('.dimmed'), .3,{
                     opacity: .3,
-                    yoyo: true, // 리버스로 반복, 무슨 말인지 모르면 물어볼 것!
+                    yoyo: true, 
                     repeat: 1,
                     ease: Power1.easeOut
-                }) // 화이트현상
+                }) 
                 var current = $('.proxy-type').eq(this.realIndex)
                 gsap.to(current.children('p'), .6, {
                     xPercent: 20.6,
@@ -282,4 +282,3 @@ $(function(){
     });
 })
 
-//////////////////////////////////////////////////////////// 모든 설명 주석은 추후에 모두 다 제거할 예정

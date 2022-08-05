@@ -26,30 +26,6 @@ $(function(){
 
     });
 
-    
-    // textTl = gsap.timeline({
-    //     scrollTrigger: {
-    //         trigger: '.sc-suppinfor',
-    //         start: 'bottom bottom',
-    //         // markers: true
-    //     }
-    // })
-
-    // .addLabel('title')
-    // .from ('.sc-suppinfor .s-title',{y: 20,duration: 1,opacity:0},'title')
-    // .from ('.sc-suppinfor .desc',{y: 20,duration: 1,opacity:0},'title')
-
-    // textTl = gsap.timeline({
-    //     scrollTrigger: {
-    //         trigger: '.sc-custalk',
-    //         start: 'top bottom',
-    //         // markers: true
-    //     }
-    // })
-    // .addLabel('title')
-    // .from ('.sc-custalk .s-title',{y: 20,duration: 1,opacity:0},'title+=.3')
-    // .from ('.sc-custalk .desc',{x: 20,duration: 1,opacity:0},'title+=.3')
-
 
     desc = gsap.utils.toArray('.left-flow');
     desc.forEach((desc) => {
